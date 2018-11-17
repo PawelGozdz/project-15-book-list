@@ -24,9 +24,9 @@ How to emit the event.\
 How to use @Inport() for making a component variable bindable from the outside of the element.\
 How to use @Output() to expose the component variable to the other components.\
 How to bind an element and pass the data between components and app.component.\
-How to access the element reference through @ViewChild.\
+How to access the element reference through @ViewChild.
 
-How to type a particular type to a variable using TypeScript.\
+How to type a particular type to a variable using TypeScript.
 
 -----------------------
 
