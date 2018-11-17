@@ -12,7 +12,9 @@ What I've learned here?
 ---
 
 How to import modules from angular/core
+-
 How to create a component using 'ng g c "element"'
+-
 How to insert dynamic data throuh {{}}
 How to insert component into another component
 How to use *ngIf for conditional statements
