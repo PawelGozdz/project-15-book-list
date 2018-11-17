@@ -11,22 +11,22 @@ That's all :)
 What I've learned here?
 ---
 
-How to import modules from angular/core. \n
-How to create a component using 'ng g c "element"'. \n
-How to insert dynamic data throuh {{}}.
-How to insert component into another component.
-How to use *ngIf for conditional statements.
-How to loop through an array and display items on the page.
-How to use local references with '#element'.
-How to add an event.
-How to create a custom Event using EventEmitter<"data type">().
-How to emit the event.
-How to use @Inport() for making a component variable bindable from the outside of the element.
-How to use @Output() to expose the component variable to the other components.
-How to bind an element and pass the data between components and app.component.
-How to access the element reference through @ViewChild.
+How to import modules from angular/core.\
+How to create a component using 'ng g c "element"'.\
+How to insert dynamic data throuh {{}}.\
+How to insert component into another component.\
+How to use *ngIf for conditional statements.\
+How to loop through an array and display items on the page.\
+How to use local references with '#element'.\
+How to add an event.\
+How to create a custom Event using EventEmitter<"data type">().\
+How to emit the event.\
+How to use @Inport() for making a component variable bindable from the outside of the element.\
+How to use @Output() to expose the component variable to the other components.\
+How to bind an element and pass the data between components and app.component.\
+How to access the element reference through @ViewChild.\
 
-How to type a particular type to a variable using TypeScript.
+How to type a particular type to a variable using TypeScript.\
 
 -----------------------
 
