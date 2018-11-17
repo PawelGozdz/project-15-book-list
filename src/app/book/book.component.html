@@ -1,3 +1,36 @@
-<p>
-  book works!
-</p>
+<li
+  class="list-group-item"
+  (click)="changeStatus()">
+  {{ book.title }}
+  <span
+    class="badge badge-primary"
+    *ngIf="book.status === 1">
+    {{ 'new' }}
+  </span>
+  <span
+    class="badge badge-warning"
+    *ngIf="book.status === 2">
+    {{ 'in progress' }}
+  </span>
+  <span
+    class="badge badge-success"
+    *ngIf="book.status === 3">
+    {{ 'read' }}
+  </span>
+</li>
+
+<!-- <li
+  class="list-group-item"
+  (click)="book.read = !book.read">
+  {{ book.title }}
+  <span
+    class="badge badge-primary"
+    *ngIf="book.read !== true">
+    {{ 'new' }}
+  </span>
+  <span
+    class="badge badge-success"
+    *ngIf="book.read === true">
+    {{ 'read' }}
+  </span>
+</li> -->

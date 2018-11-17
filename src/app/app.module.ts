@@ -1,24 +1,24 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { DropdownComponent } from './dropdown/dropdown.component';
 import { NavigationComponent } from './navigation/navigation.component';
-import { BookshelfComponent } from './bookshelf/bookshelf.component';
 import { BookComponent } from './book/book.component';
+import { AddBookComponent } from './add-book/add-book.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    DropdownComponent,
     NavigationComponent,
-    BookshelfComponent,
-    BookComponent
+    BookComponent,
+    AddBookComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
